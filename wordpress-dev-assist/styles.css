@@ -1,0 +1,40 @@
+.bbpp-wda-panel {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10000;
+    background: #ffffff;
+    border-top: 4px solid #666666;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    height: 50px;
+    font-family: arial;
+    font-size: 16px;
+}
+
+ul.bbpp-wda-buttons {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.bbpp-wda-buttons > li {
+    display: inline-block;
+}
+
+ul.bbpp-wda-buttons > li + li {
+    margin-left: 10px;
+}
+
+
+ul.bbpp-wda-buttons > li > a {
+    border: 2px solid #CCC;
+    padding: 7px 14px;
+    display: block;
+    cursor: pointer;
+}
+
+.bbpp-wda-button-loading {
+    background: url(loader.gif) no-repeat center;
+    color: #999999;
+}
